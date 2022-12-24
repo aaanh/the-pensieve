@@ -1,4 +1,14 @@
-const sample_records = [
+const sample_records: 
+  {
+    id: number;
+    msg: string;
+    date: string;
+    time: string;
+    location: string;
+    mood: string;
+    tags: string[];
+  }[]
+= [
   {
     "id": 1,
     "msg": "Hello World!",
